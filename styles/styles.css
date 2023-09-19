@@ -11,13 +11,13 @@
 /* HEADER */
 
 .header {
-  height: 65px;
+  padding: 14px;
   display: flex;
   justify-content: flex-start;
   gap: 10px;
   position: fixed;
   width: 100%;
-  margin-left: 30px;
+  background: white;
 }
 
 .logo1 {
@@ -58,8 +58,70 @@ main {
   padding-top: 65px;
 }
 
+.section-white {
+  background-color: white;
+}
+
+.line-white {
+  background: #f7f7f7;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line-white p {
+  font-size: 19px;
+}
+
+.line-white a {
+  font-size: 19px;
+  color: black;
+  border-bottom: 1px solid black;
+}
+
 .section-one {
-  background-image: url(./sportswear_SS_23_global_launch_hp_masthead_primary_d_e3c0c8622e.avif);
+  background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/boca_ar_mh_large_d_ddd937bd1c.jpg);
+  width: 100%;
+  height: 700px;
+}
+
+.boca {
+  max-width: 1200px;
+  height: 700px;
+  margin-left: 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.boca h2 {
+  font-family: "Inclusive Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+
+.boca p {
+  color: white;
+  font-size: 19px;
+  max-width: 530px;
+}
+
+.boca a {
+  cursor: pointer;
+  color: black;
+  background: white;
+  padding: 1rem;
+  font-weight: 600;
+  box-shadow: 1px solid white;
+}
+
+.section-two {
+  background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/sportswear_SS_23_global_launch_hp_masthead_primary_d_e3c0c8622e.jpg);
   width: 100%;
   height: 700px;
 }
