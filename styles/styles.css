@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,500&family=Nunito:wght@300;400;800;900&family=Work+Sans:ital,wght@0,100;0,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* HEADER */
+
+.header {
+  height: 65px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  position: fixed;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.logo1 {
+  width: 80px;
+  height: 50px;
+}
+
+.logo2 {
+  width: 80px;
+  height: 50px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: black;
+  font-weight: 600;
+}
+
+.navbar a:hover {
+  border-bottom: 3px solid black;
+  padding-bottom: 10px;
+}
+
+/* MAIN */
+
+main {
+  padding-top: 65px;
+}
+
+.section-one {
+  background-image: url(./sportswear_SS_23_global_launch_hp_masthead_primary_d_e3c0c8622e.avif);
+  width: 100%;
+  height: 700px;
+}
