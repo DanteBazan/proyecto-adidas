@@ -85,6 +85,8 @@ main {
 
 .section-one {
   background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/boca_ar_mh_large_d_ddd937bd1c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 700px;
 }
@@ -126,6 +128,8 @@ main {
 
 .section-two {
   background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/sportswear_SS_23_global_launch_hp_masthead_primary_d_e3c0c8622e.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 850px;
 }
@@ -166,6 +170,8 @@ main {
 /* TERCERA SECCION */
 .section-tree {
   background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/precios_justos_stm_d_5247922b0c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
   height: 500px;
 }
@@ -277,4 +283,91 @@ main {
 .container-prs-info a:hover {
   background: black;
   color: white;
+}
+
+/* SEXTA SECCION */
+.section-six {
+  margin-top: 100px;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.container-nov {
+  display: flex;
+  gap: 2rem;
+  margin-left: 125px;
+}
+
+.section-six a {
+  background: black;
+  padding: 1rem;
+  color: white;
+  font-weight: 500;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.section-six a:hover {
+  background: white;
+  color: black;
+  /* border: 1px solid black; */
+  font-weight: 500;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 1730px;
+}
+
+.container-card-cams-bc {
+  width: 283px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container-card-cams-bc:hover {
+  border: 1px solid black;
+}
+
+.container-card-bc {
+  position: relative;
+}
+
+.container-card-bc p {
+  position: absolute;
+  top: 260px;
+  left: 12px;
+  background: white;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.container-info-bc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.container-info-bc h4 {
+  font-size: 15px;
+  font-weight: 100;
+  max-width: 250px;
+}
+
+.container-info-bc p {
+  color: grey;
+}
+
+.container-info-bc b {
+  font-weight: 200;
+  font-size: 12px;
 }
