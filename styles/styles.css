@@ -117,7 +117,7 @@ main {
   cursor: pointer;
   color: black;
   background: white;
-  padding: 1rem;
+  padding: 16px 30px;
   font-weight: 600;
   box-shadow: 1px solid white;
 }
@@ -158,7 +158,7 @@ main {
   cursor: pointer;
   color: black;
   background: white;
-  padding: 1rem;
+  padding: 16px 30px;
   font-weight: 600;
   box-shadow: 1px solid white;
 }
@@ -198,7 +198,83 @@ main {
   cursor: pointer;
   color: black;
   background: white;
-  padding: 1rem;
+  padding: 16px 30px;
   font-weight: 600;
   box-shadow: 1px solid white;
+}
+
+/* CUARTA SECCION */
+
+.section-for {
+  height: 200px;
+  padding: 3em;
+}
+
+.container-title-s4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-title-s4 h3 {
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.container-photos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.img-log-eq {
+  width: 70px;
+  height: 60px;
+}
+
+/* QUINTA SECCION */
+
+.section-five {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container-card-riv {
+  max-width: 405px;
+  cursor: pointer;
+}
+
+.container-prs-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.container-prs-info h3 {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.container-prs-info p {
+  color: #383636;
+}
+
+.container-prs-info a {
+  color: black;
+  border-bottom: 2px solid black;
+}
+
+.container-prs-info a:hover {
+  background: black;
+  color: white;
 }
