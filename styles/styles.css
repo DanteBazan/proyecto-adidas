@@ -124,6 +124,10 @@ main {
   box-shadow: 1px solid white;
 }
 
+.boca a:hover {
+  opacity: 60%;
+}
+
 /* SEGUNDA SECCION */
 
 .section-two {
@@ -167,6 +171,10 @@ main {
   box-shadow: 1px solid white;
 }
 
+.jenna a:hover {
+  opacity: 60%;
+}
+
 /* TERCERA SECCION */
 .section-tree {
   background-image: url(https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/precios_justos_stm_d_5247922b0c.jpg);
@@ -207,6 +215,10 @@ main {
   padding: 16px 30px;
   font-weight: 600;
   box-shadow: 1px solid white;
+}
+
+.precios a:hover {
+  opacity: 60%;
 }
 
 /* CUARTA SECCION */
