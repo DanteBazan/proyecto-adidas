@@ -410,6 +410,7 @@ main {
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
+  margin-left: 10px;
 }
 
 .container-forum p {
@@ -430,6 +431,7 @@ main {
 .section-ocho {
   display: flex;
   flex-direction: column;
+  gap: 2rem;
 }
 
 .container-mejor-adidas {
@@ -441,4 +443,25 @@ main {
   background: black;
   color: white;
   padding: 12px;
+}
+
+.container-card-vent {
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  gap: 1rem;
+  margin-left: 125px;
+}
+
+.card-bcj {
+  width: 280px;
+  height: 280px;
+}
+
+.container-card-cams-bc-bottom {
+  width: 283px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
